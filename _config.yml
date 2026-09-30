@@ -1,0 +1,5 @@
+# GitHub Pages settings.
+# Files listed here stay in the repository but are NOT published on the website.
+exclude:
+  - README.md
+  - _template.html

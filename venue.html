@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COCOON 2027 | Venue & Accommodation</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<header id="header"></header>   <!-- menu comes from menu.js -->
+
+<div class="banner">
+  <h1>Venue & Accommodation</h1>
+</div>
+
+<!-- ================================================================
+     THIS PAGE IS NOT PUBLISHED YET. To publish it:
+       1. Fill in the content inside <div class="page-body hidden">.
+       2. Delete the <div class="coming-soon"> ... </div> block.
+       3. Remove the word "hidden" from <div class="page-body hidden">.
+       4. In menu.js, set  show: true  for this page.
+     ================================================================ -->
+
+<main class="page">
+
+  <div class="coming-soon">
+    <h2>Coming Soon</h2>
+    <p>Information about the venue and recommended hotels will be available soon.</p>
+    <p><a href="call-for-papers.html">Call for Papers &rarr;</a></p>
+  </div>
+
+  <div class="page-body hidden">
+
+    <section class="section">
+      <h2>Conference Venue</h2>
+      <p><strong>Venue name</strong><br>Street address, Melbourne VIC ...., Australia</p>
+      <!-- Google Maps: Share > Embed a map > copy the src="..." link into the iframe below. -->
+      <iframe class="embed" src="" loading="lazy"></iframe>
+    </section>
+
+    <section class="section">
+      <h2>Accommodation</h2>
+      <p>The following hotels are close to the venue.</p>
+      <ul>
+        <li><a href="#" target="_blank">Hotel name</a> &ndash; distance to venue, price range, booking code</li>
+        <li><a href="#" target="_blank">Hotel name</a> &ndash; distance to venue, price range, booking code</li>
+      </ul>
+    </section>
+
+  </div>
+</main>
+
+<footer id="footer"></footer>
+<script src="menu.js"></script>
+</body>
+</html>
