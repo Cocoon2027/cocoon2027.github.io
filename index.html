@@ -1,12 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>COCOON 2027</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COCOON 2027 | The 33rd International Computing and Combinatorics Conference</title>
+  <meta name="description" content="COCOON 2027, the 33rd International Computing and Combinatorics Conference, 18-21 July 2027, Melbourne, Australia.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 </head>
 <body>
-<h1>COCOON 2027</h1>
-<p>The 33rd International Computing and Combinatorics Conference.</p>
-<p>Website under construction.</p>
+
+<header id="header"></header>   <!-- menu comes from menu.js -->
+
+<div class="banner big">
+  <p class="kicker">COCOON 2027</p>
+  <h1>The 33<sup>rd</sup> International Computing and Combinatorics Conference</h1>
+  <hr class="divider">
+  <p class="when">18&ndash;21 July 2027 &middot; Melbourne, Australia</p>
+  <a class="btn" href="call-for-papers.html">Call for Papers</a>
+  <!-- When registration opens: <a class="btn" href="registration.html">Register</a> -->
+</div>
+
+<div class="container main">
+
+  <!-- ==================== MAIN COLUMN ==================== -->
+  <div class="content-left">
+
+    <div class="content">
+      <h2>Welcome to COCOON 2027</h2>
+      <p>The 33<sup>rd</sup> International Computing and Combinatorics Conference (<strong>COCOON 2027</strong>) will be held during <strong>18&ndash;21 July 2027</strong> in <strong>Melbourne, Australia</strong>. The proceedings of COCOON 2027 will be published by Springer.</p>
+      <p>Since 1995, COCOON has been held annually as a forum for researchers working in algorithms, theory of computation, computational complexity, and combinatorics related to computing. COCOON 2027 is the third edition held in Australia, after Sydney in 2000 and 2012, and the first in Melbourne.</p>
+    </div>
+
+    <!-- NEWS: add the newest item at the TOP. -->
+    <div class="content gray">
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">30 Sep 2026</span> The COCOON 2027 website is online. The <a href="call-for-papers.html">Call for Papers</a> is available.</li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2>Call for Papers</h2>
+      <p>Original research papers in the areas of algorithms, theory of computation, computational complexity, and combinatorics related to computing are solicited. Submissions presenting experimental or applied work are also welcome, provided that they make a clear algorithmic contribution and offer insights of interest to the theory and algorithms community. The topics of interest include (but are not limited to):</p>
+      <ul class="two-col">
+        <li>Algorithms and Data Structures</li>
+        <li>Algorithmic Game Theory and Mechanism Design</li>
+        <li>Approximation Algorithms and Online Algorithms</li>
+        <li>Automata, Languages, Logic, and Computability</li>
+        <li>Combinatorics Related to Algorithms and Complexity</li>
+        <li>Complexity Theory</li>
+        <li>Computational Learning Theory and Knowledge Discovery</li>
+        <li>Cryptography, Reliability and Security</li>
+        <li>Database Theory</li>
+        <li>Computational Biology and Bioinformatics</li>
+        <li>Computational Algebra, Geometry, and Number Theory</li>
+        <li>Exact and Parameterized Algorithms</li>
+        <li>Graph Drawing and Information Visualization</li>
+        <li>Graph Theory and Communication Networks</li>
+        <li>Optimization</li>
+        <li>Parallel and Distributed Computing</li>
+        <li>Quantum Computing</li>
+      </ul>
+      <p><a href="call-for-papers.html"><strong>Read the full Call for Papers &rarr;</strong></a></p>
+    </div>
+
+    <!-- INVITED SPEAKERS: remove "hidden" once confirmed. -->
+    <div class="content gray hidden">
+      <h2>Invited Speakers</h2>
+      <ul>
+        <li>Speaker Name (Affiliation, Country)</li>
+        <li>Speaker Name (Affiliation, Country)</li>
+      </ul>
+      <p><a href="invited-speakers.html"><strong>More about the talks &rarr;</strong></a></p>
+    </div>
+
+    <div class="content gray">
+      <h2>Proceedings and Awards</h2>
+      <p>Accepted papers will be published by Springer in the Lecture Notes in Computer Science (LNCS) series, as in the <a href="https://link.springer.com/conference/cocoon" target="_blank">previous COCOON conferences</a>. Accepted papers must be presented in-person in order to appear in the proceedings.</p>
+      <p>Awards will be given for the Best Paper and the Best Student Paper.</p>
+      <!-- After the conference, add: <p>The proceedings are available <a href="...">online</a>.</p> -->
+    </div>
+
+    <!-- ORGANIZERS / SPONSORS: add logos to images/ and remove "hidden". -->
+    <div class="content hidden">
+      <h2>Organizers and Sponsors</h2>
+      <div class="logos">
+        <a href="#" target="_blank"><img src="images/logo-organizer.png" alt="Organizer"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ==================== SIDEBAR ==================== -->
+  <div class="content-right">
+
+    <!-- COUNTDOWN: the numbers are filled in by menu.js (dates set in SITE there). -->
+    <div class="side-box">
+      <h3>Conference Countdown</h3>
+      <div id="countdown" class="countdown"></div>
+      <p class="countdown-note">18&ndash;21 July 2027 &middot; Melbourne</p>
+    </div>
+
+    <!-- Same dates are on call-for-papers.html — update both.
+         Extended deadline: <strong><del>27 February 2027</del> 6 March 2027</strong> -->
+    <div class="side-box">
+      <h3>Important Dates</h3>
+      <ul class="dates">
+        <li><strong>27 February 2027</strong>Paper submission deadline</li>
+        <li><strong>6 May 2027</strong>Notification of acceptance</li>
+        <li><strong>29 May 2027</strong>Camera-ready version</li>
+        <li><strong>18&ndash;21 July 2027</strong>Conference</li>
+      </ul>
+      <p class="dates-note">All deadlines are 23:59 AoE (Anywhere on Earth, UTC&minus;12).</p>
+    </div>
+
+    <!-- CONTACT: the same e-mail is set in menu.js (SITE.email) for the footer. -->
+    <div class="side-box">
+      <h3>Contact</h3>
+      <p>For any questions about COCOON 2027, please contact:</p>
+      <p><a href="mailto:cocoon2027.melbourne@gmail.com">cocoon2027.melbourne@gmail.com</a></p>
+    </div>
+
+    <div class="side-box">
+      <h3>Visiting Melbourne</h3>
+      <!-- Video from Visit Melbourne on YouTube. To change it, replace the video ID (HN7KMQQpOC8) in all three places.
+           Clicking the picture plays the video here on the published site;
+           when the page is opened as a local file it opens the video on YouTube instead. -->
+      <a class="video" href="https://www.youtube.com/watch?v=HN7KMQQpOC8" target="_blank" data-youtube="HN7KMQQpOC8">
+        <img src="https://i.ytimg.com/vi/HN7KMQQpOC8/maxresdefault.jpg" alt="Melbourne Miniature Miracle (Visit Melbourne video)" loading="lazy">
+        <span class="play"></span>
+      </a>
+      <p>Most international visitors need a visa or an electronic travel authority to enter Australia. Please check the <a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder" target="_blank">requirements</a> early. July is winter in Melbourne.</p>
+    </div>
+
+    <div class="side-box">
+      <h3>Previous Conferences</h3>
+      <ul>
+        <li><a href="https://event.ntu.edu.sg/cocoon2026" target="_blank">COCOON 2026</a> &ndash; Singapore</li>
+        <li><a href="https://tcsuestc.com/cocoon2025/index.html" target="_blank">COCOON 2025</a> &ndash; Chengdu, China</li>
+        <li><a href="https://anl.sjtu.edu.cn/cocoon2024/" target="_blank">COCOON 2024</a> &ndash; Shanghai, China</li>
+        <li><a href="history.html">All editions since 1995 &rarr;</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<footer id="footer"></footer>
+<script src="menu.js"></script>
 </body>
 </html>
